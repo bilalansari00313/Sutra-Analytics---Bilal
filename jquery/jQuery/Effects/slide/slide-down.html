@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slideDown</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <style>
+        #panel{
+            padding: 50px;
+            display: none;
+        }
+        #flip{
+            padding: 5px;
+        }
+        #flip,
+        #panel {
+            text-align: center;
+            border: 1px solid #c3c3c3;
+            background-color: #e5eecc;
+        }
+    </style>
+    <script>
+        $(document).ready(function(){
+            $("#flip").click(function(){
+                $("#panel").slideDown("slow");
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div id="flip">Click Me!</div>
+    <div id="panel">Hello World!</div>
+</body>
+
+</html>

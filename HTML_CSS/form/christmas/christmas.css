@@ -1,0 +1,228 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.main{
+width: 1440px;
+height: 1570px;
+background-color: #651014;
+}
+.hed{
+    background-image: url(../../christmas_681/crismus/images/templatemo_body.jpg);
+}
+
+.logo{
+    background-repeat: no-repeat;
+    width: 900px;
+    height: 300px;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+.menu{
+    background-image: url(../../christmas_681/crismus/images/templatemo_menu.jpg);
+background-repeat: no-repeat;
+width: 991px;
+height: 90px;
+margin: auto;
+padding-top: 43px;
+
+}
+.menu a {
+    font-size: 20px;
+    color: yellow;
+    text-decoration: none;
+    margin: 20px;
+    margin-left: 64px;
+    padding: 41px 2px 6px 18px;
+}
+.menu a:hover{
+    background-image: url(/christmas_681/crismus/images/templatemo_menu_hover.png);
+    background-position:  left center;
+    background-repeat: no-repeat;
+
+}
+
+.conten{
+    width: 959px;
+    height: 2258px;
+    background-color: rgb(69 12 12);
+    margin: auto;
+    border-radius: 30px;
+    margin-top: -60px;
+}
+
+.leftbar{
+    width: 650px;
+    height: 2143px;
+    background-color: rgb(46, 4, 4);
+    float: left;
+    border-radius: 50px;
+    margin-left: 40px;
+    margin-top: 55px;
+}
+/* .rightbar{
+    float: right;
+    width: 260px;
+    height: 958px;
+    background-color: black;
+
+} */
+h1{
+    color: #749d07;
+    margin: 34px 0 12px 50px;
+}
+.leftbar img {
+    margin: -15px 0 0px 53px;
+}
+
+
+h5{
+    /* margin-left: 48px; */
+    color: bisque;
+    margin: 12px 17px 37px 49px;
+
+}
+a{
+    color: yellow;
+    text-decoration: none;
+}
+
+.rightbar{
+    float: right;
+    width: 240px;
+    height: 2100px;
+    background-color: rgb(69 12 12);
+    margin-top: 70px;
+}
+.rightbar h2{
+    color: #57bec7;
+}
+.rightbar ul li{
+    padding: 7px;
+    margin-left: -6;
+}
+
+.rightbar .Post{
+    margin-top: 80px;
+
+}
+.rightbar p{
+    color: bisque;
+
+}
+.rightbar .frinds{
+    margin-top: 31px;
+
+}
+
+.footer1 a{ 
+    margin: 30px;
+    color: #BB4444;
+
+}
+.footer1{
+    padding-top: 40px;
+
+}
+
+.footer{
+    margin:auto ;
+    text-align: center;
+
+}
+/* 
+footer1 p{
+    padding-top: 20px;
+} */
+.footer2{
+    padding-top: 25px;
+    color: #BB4444;
+
+}
+.footer3{
+    color: bisque;
+    padding-top: 10px;
+}
+
+.Comments{
+
+    border-bottom: dashed seagreen 1px;
+    color: white;
+    font-size: 30px;
+    width: 566px;
+    margin-left: 51px;
+    margin-top: 76px;
+}
+.jhon{
+    background-color: rgb(69 12 12);
+    width: 571px;
+    height: 173px;
+    margin: 11px 0 1px 47px;
+    border-top: #749d07 solid 4px;
+}
+
+.tree img {
+    position: absolute;
+    margin: 8px 0 0 8px;
+}
+.tree1{
+    padding: 40px 10px 0 73px;
+    color: aliceblue;
+}
+.leftbar i{
+    margin: 13px 0 0 73px;
+    position: absolute;
+}
+.jhon button{
+    width: 60px;
+    height: 31px;
+    float: right;
+    margin: 23px 19px 0 0;
+}
+
+
+.Michael{
+    width: 500px; 
+    margin-left: 116px;
+    border-top: #3ba69d solid 4px;
+    background-color: rgb(69 12 12);
+    margin-top: 17px;
+    height: 170px;
+
+}
+.Michael button{
+    float: right;
+    padding: 1px 10px;
+    height: 24px;
+    text-align: center;
+    background: #2d0507;
+    border: 1px solid #64171b;
+}
+
+form{
+    color: antiquewhite;
+    background-color: rgb(69 12 12);
+    width: 590px;
+    height: 403px;
+    margin: 24px 0 0 34px;
+    padding: 20px 0;
+}
+ form label{
+    margin-left: 20px; 
+} 
+
+form input{
+margin: 0px 20px 18px;
+width: 220px;
+}
+/* form label input{
+    margin-top: 10px;
+} */
+
+a:hover{
+    text-decoration: solid 2px yellow
+}

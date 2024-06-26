@@ -1,0 +1,55 @@
+.menu{
+    width: 90px;
+    height: 46px;
+    margin-left: 1298px;
+    margin-top: 26px;
+    font-size: 20px;
+}
+.one{
+    background-color: rgba(0, 0, 0, 0.576);
+    width: 400px;
+    height: 200px;
+    margin: 50px 0 0 50px;
+}
+
+.thec{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding: 60px 0 0 0;
+}
+.free{
+    color: antiquewhite;
+    font-size: 22px;
+    text-align: center;
+}
+
+h2{
+    color: rgb(11, 167, 167);
+}
+.about{
+    float: right;
+    width: 312px;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.435);
+    margin-right: 50px;
+    padding: 50px;
+    font-size: 22px;
+    color: aliceblue;
+}
+
+button{
+    width: 90px;
+    height: 35px;
+
+}
+
+.barcod{
+    margin: 40px 0 0 65px;
+}
+
+.footer{
+    margin-left: 20px;
+    margin-top: 10px;
+    color: #faebd7;
+}

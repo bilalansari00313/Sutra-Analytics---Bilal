@@ -1,0 +1,64 @@
+
+.menu{
+    width: 90px;
+    height: 46px;
+    margin-left: 1298px;
+    margin-top: 26px;
+    font-size: 20px;
+}
+.one{
+    background-color: rgba(0, 0, 0, 0.576);
+    width: 400px;
+    height: 200px;
+    margin: 50px 0 0 50px;
+}
+.thec{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding: 60px 0 0 0;
+}
+.free{
+    color: antiquewhite;
+    font-size: 22px;
+    text-align: center;
+}
+
+label{
+    font-size: 60px;
+    color: #faebd7;
+    margin: 90px 0 0 873px;
+    position: absolute;
+}
+.two{
+    width: 550px;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.576);
+    margin: 160px 0 0 830px;
+    font-size: 23px;
+
+}
+.p2{
+    color: antiquewhite;
+    padding: 40px;
+    float: right;
+    
+}
+.reedmore{
+    width: 140px;
+    height: 66px;
+    margin-left: 830px;
+    margin-top: 26px;
+    color: brown;
+    font-size: 20px;
+
+}
+.barcod{
+    margin: 40px 0 0 65px;
+}
+
+.footer{
+    margin-left: 20px;
+    margin-top: 10px;
+    color: #faebd7;
+}

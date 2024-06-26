@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Program 5</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script></head>
+<body>
+    <h1 class="hideThis">Hiding any specific element using .class</h1>
+    <p>This is a jQuery program 5</p>
+    <p id="hideThis">This program will hide something with its given className</p>
+    <button type="button">Click me to hide!</button>
+</body>
+<script>
+    // Hides the current element
+    $(document).ready(function(){
+        $("button").click(function(){
+            $(this).hide()
+        });
+    });
+</script>
+</html>

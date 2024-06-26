@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom2</title>
+</head>
+<style>
+    #a{
+        height: 200px;
+        width: 200px;
+        background-color: yellow;
+        border-radius: 100px;
+        margin: auto;
+        margin-top: 200px;
+        border-color: 2px black;
+
+    }
+</style>
+<body>
+
+    <p id="text" onclick="this.innerHTML ='OOPS do not click on the text' ">his is DOM exercise</p>
+
+
+<button onclick="change()">click me</button>
+
+<p id="text1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae veritatis doloribus suscipit nostrum voluptatum ipsa nesciunt odit repellat, repellendus rem eveniet, perferendis ut minima cum in quam praesentium, repudiandae illo.</p>
+
+<button onclick="change1()">click red</button>
+<button onclick="change2()">click white</button>
+
+<div id="a">
+    
+</div>
+
+</body>
+<script>
+    function change(){
+let a = document.getElementById ('text')
+a.style.fontSize = '20px';
+a. style.color = 'red';
+a.style.font = 'italic bold 40px';
+    }
+
+
+    function change1(){
+let b = document.getElementById ('text1')
+b. style.backgroundColor = 'red';
+b. style.fontSize = '60px';
+    }
+
+    function change2(){
+        let c = document.getElementById ('text1')
+        c.style.backgroundColor = '';
+    }
+
+
+
+
+
+</script>
+</html>

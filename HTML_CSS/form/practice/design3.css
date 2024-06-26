@@ -1,0 +1,42 @@
+.menu{
+    width: 90px;
+    height: 46px;
+    margin-left: 1298px;
+    margin-top: 26px;
+    font-size: 20px;
+}
+.one{
+    background-color: rgba(0, 0, 0, 0.576);
+    width: 400px;
+    height: 200px;
+    margin: 50px 0 0 50px;
+}
+
+.thec{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding: 60px 0 0 0;
+}
+.free{
+    color: antiquewhite;
+    font-size: 22px;
+    text-align: center;
+}
+.img{
+    background-color: aqua;
+    width: 1000px;
+    height: 350px;
+}
+.oneimg{
+    background-image: url(../../2109_the_card/img/01.jpg);
+    background-size: ;
+    width: 200px;
+    height: 300px;
+}
+.two{
+    background-image: url(../../2109_the_card/img/02.jpg);
+    width: 200px;
+    height: 300px;
+    flex: auto;
+}

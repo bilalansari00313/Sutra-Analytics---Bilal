@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1200px;
+    background-color: rgba(144, 140, 113, 0.809);
+    margin-left: 60px;
+
+}
+
+.office{
+    height: 400px;
+    background-color: antiquewhite;
+    margin: 100px 0 0 120px;
+    border: 5px solid rgb(71, 71, 71);
+    background-image: url(../../../../image/home-office-furniture-desk-chair-table.jpg);
+}
+.home{
+    background-color: rgb(71, 71, 71);
+    height: 26px;
+}
+.home a{
+    padding: 10px;
+    text-decoration-line: none;
+    color: antiquewhite;
+
+}
+.home2 label{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+
+}
+.home2{
+    margin-top: 290px;
+    background-color: rgba(245, 222, 179, 0.352);
+}
+.conten{
+    margin-top: 40px;
+    width: 1076px;
+    margin-left: 124px;
+}
+
+
+
+.leftbar{
+    float: left;
+    background-color: wheat;
+    width: 330px;
+    height:1000px;
+    border: 5px solid rgb(92, 73, 34);
+}
+.left{
+    padding: 40px 0 0 25px;
+}
+.leftbar button{
+    width: 125px;
+    height: 25px;
+    background-color: rgb(92, 73, 34);
+color: antiquewhite;
+font-size: 19px;
+margin-top: 20px;
+
+    
+}
+.leftbar ul{
+    margin-top: 1%;
+}
+
+.right{
+    padding: 40px 30px 0 25px;
+
+}
+.rightbar{
+    background-color: wheat;
+    float: right;
+    width: 700px;
+    height: 350px;
+    border: 5px solid rgb(92, 73, 34);
+
+}
+
+.rightbar p{
+    padding: 25px;
+}
+
+.about3 .up{
+    float: right;
+    width: 700px;
+    margin-top: 16px;
+
+}
+/* .about3 i{
+    font-size: 50px;
+} */
+
+
+.about3 .down{
+    background-color: wheat;
+    float: right;
+    width: 700px;
+    height: 200px;
+    border: 5px solid rgb(92, 73, 34);
+    margin-top: 12px;
+}
+
+.about3 h2{
+    margin-left: 50px;
+}
+.about3 i{
+    position: absolute;
+    font-size: 40px;
+}
+.footer button{
+    width: 700px;
+    height: 35px;
+    color: wheat;
+    background-color: rgb(92, 73, 34);
+    margin: 7px 0 0 35px;
+
+}

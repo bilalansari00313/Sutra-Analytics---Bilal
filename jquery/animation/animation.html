@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <button>click</button>
+
+
+    <div id="one" style="background-color: yellow; height: 50px; width: 150px; position: relative;"></div>
+
+    <div id="two" style="background-color: red; height: 50px; width: 150px; position: relative;"> hello</div>
+
+    <div id="three" style="background-color: rgb(21, 255, 0); height: 50px; width: 150px; position: relative;">hiiiii</div>
+
+    <div id="four" style="background-color: rgb(0, 4, 255); height: 50px; width: 150px; position: relative;"> how are you</div>
+
+    <div id="five" style="background-color: rgb(255, 0, 217); height: 50px; width: 150px; position: relative;"></div>
+
+    <div id="six" style="background-color: rgb(255, 128, 0); height: 50px; width: 150px; position: relative;"></div>
+
+
+<!-- <p style="font-size: 40px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam qui quod sed quam molestiae laboriosam aliquam minus laborum perspiciatis dolorem, rerum suscipit asperiores totam sint! Fugiat aspernatur cum iusto numquam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam vero quis iusto, dolorum architecto, odit sapiente labore veritatis molestiae aspernatur exercitationem a maxime. Quae quis deleniti sequi expedita recusandae numquam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum sed ipsa quas unde ullam distinctio, deserunt tenetur et aliquid consectetur! Magnam sit nesciunt amet dolores tempora sequi. Fuga, porro doloremque!</p> -->
+    <div></div>
+
+  </body>
+  <script>
+    // $(document).ready(function() {
+    //   $("button").click("click",function () {
+    //     $("div").animate({
+    //       width: '900px',
+    //     //   left: '250px',
+    //     //   right: '250px'
+    //         height: '500px',
+    //         opacity: 0.4
+
+    //     });
+    //   });
+    // });
+
+// $(document).ready(function(){
+//     $("p").mouseenter(function(){
+//         $("p").css("background-color","green")
+//     })
+//     $("p").mouseout(function(){
+//         $("p").css("background-color","yellow")
+//         $("p").blur()
+//     })
+// })
+
+
+// $(document).ready(function(){
+//     $("button").click(function(){
+//         $("p").hide(4000)
+//     })
+//     $("button").click(function(){
+//         $("p").show(3000)
+        
+//     })
+// })
+
+
+
+
+
+
+// 50)Use the animate() method to set the height of a <div> element to 500 pixels
+// $(document).ready(function(){
+//     $("button").click(function(){
+//         $("#one").animate({width: '500px'},1000);
+//     })
+// })
+
+// $(document).ready(function(){
+//     $("button").click(function(){
+//         $("#one").animate({width: '500px'},1000);
+//     })
+// })
+
+// $(document).ready(function(){
+//     $("button").click(function(){
+//         $("#two").animate({width: '500px'},2000);
+//     })
+// })
+
+
+// $(document).ready(function(){
+//     $("button").click(function(){
+//         $("#three").animate({width: '500px'},3000);
+//     })
+// })
+
+
+// $(document).ready(function(){
+//     $("button").click(function(){
+//         $("#four").animate({width: '500px'},4000);
+//     })
+// })
+
+
+// $(document).ready(function(){
+//     $("button").click(function(){
+//         $("#five").animate({width: '500px'},5000);
+//     })
+// })
+
+// $(document).ready(function(){
+//     $("button").click(function(){
+//         $("#six").animate({width: '500px'},1000);
+//         $("#six").animate({width: 'toggle'},1000);
+//     })
+// })
+
+//  $(document).ready(function(){
+//     $("button").click(function(){
+//         $("#six").animate({width: 'toggle'},6000);
+//     })
+// })
+
+
+$(document).ready(function(){
+    $("button").click(function(){
+        var two=$("#two");
+        two.animate({left: "500px"},2000);
+        two.animate({fontSize: "50px"},2000);  
+    })
+})
+
+$(document).ready(function(){
+    $("button").click(function(){
+        var three=$("#three");
+        three.animate({left: "600px"},2000);
+        three.animate({fontSize: "50px"},2000);  
+    })
+})
+
+$(document).ready(function(){
+    $("button").click(function(){
+        var four=$("#four");
+        four.animate({left: "700px"},2000);
+        four.animate({fontSize: "50px"},2000);  
+    })
+})
+
+
+  </script>
+</html>

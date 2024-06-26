@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <p id="demo">JavaScript can change HTML content.</p>
+
+    <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button> -->
+
+
+    <p id="myParagraph">This is a sample paragraph. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi debitis, quis in repudiandae pariatur alias enim. Eligendi perspiciatis magnam dolor modi ducimus quasi, hic facilis consequatur aliquam, accusamus aliquid iusto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi est, quas beatae ex soluta praesentium obcaecati quasi, repellendus temporibus libero vero alias officia eaque unde quia expedita, qui et? Labore?</p>
+    <button onclick="changeBackgroundColor()">Change Background Color</button>
+
+</body>
+<script>
+       function changeBackgroundColor() {
+            var paragraph = document.getElementById('myParagraph');
+            paragraph.style.backgroundColor = 'yellow'; // New background color
+            paragraph.style.color = 'red';
+            paragraph.style.fontSize = '90px';
+        }
+    
+</script>
+</html>

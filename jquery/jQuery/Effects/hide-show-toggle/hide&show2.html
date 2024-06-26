@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hide & Show Speed</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <h1>Hide & Show using Speed</h1>
+    <p>Click on "Hide" button, I will hide</p>
+    <p>Click on "Show" button, I will come back</p>
+    <button id="hide">Hide</button>
+    <button id="show">Show</button>
+</body>
+<script>
+
+    $(document).ready(function(){
+        $("#hide").click(function(){
+            $("p").hide(500);
+        });
+    });
+    $(document).ready(function(){
+        $("#show").click(function(){
+            $("p").show(500);
+        });
+    });
+
+</script>
+</html>

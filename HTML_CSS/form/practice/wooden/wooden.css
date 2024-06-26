@@ -1,0 +1,157 @@
+body {
+  background-image: url(../../../templatemo_306_wooden_wall/images/templatemo_body.jpg);
+}
+.hedar {
+  background-image: url(../../../templatemo_306_wooden_wall/images/templatemo_header.png);
+  width: 900px;
+  height: 100px;
+  margin-left: 209px;
+  margin-top: -20px;
+}
+h1 {
+  color: brown;
+  margin: 20px 0 0 130px;
+}
+h3 {
+  margin-left: 130px;
+}
+.menubar {
+  background-image: url(../../../templatemo_306_wooden_wall/images/templatemo_menu.png);
+  width: 900px;
+  height: 40px;
+  border-radius: 30px;
+  margin-left: 217px;
+  margin-top: -4px;
+}
+.manu {
+  background: url(./images/templatemo_menu.png);
+  height: 40px;
+  width: 950px;
+}
+.manu a {
+  float: left;
+  padding: 10px 0 0 0;
+  color: #3f3228;
+  font-size: 18px;
+  font-weight: bolder;
+  text-decoration: none;
+  /* text-align: center; */
+  margin: 0 -70px 0 100px;
+}
+.manu a:hover {
+  background: url(./images/templatemo_menu_hover.png);
+  color: #000;
+  height: 30px;
+  padding: 10px 15px 0 15px;
+}
+.content {
+  margin-left: 15%;
+  width: 903px;
+  height: 800px;
+  background-image: url(../../../templatemo_306_wooden_wall/images/templatemo_body.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: aliceblue;
+}
+p {
+  font-size: 14px;
+  color: rgb(137, 146, 154);
+}
+.leftbar {
+  float: left;
+  width: 340px;
+  height: 390px;
+  margin: 60px 0 0 100px;
+}
+label {
+  color: yellowgreen;
+  font-size: 40px;
+}
+.rightbar {
+  float: right;
+  width: 340px;
+  height: 390px;
+  margin: 60px 98px 0 0;
+}
+.li a {
+  margin: 10px;
+}
+.footer {
+  color: rgb(245, 204, 126);
+  margin: -318px 8px 0px 400px;
+}
+
+.leftbar a {
+  color: orange;
+  text-decoration-line: underline;
+}
+a:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+li {
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+.right a {
+  text-decoration: none;
+  color: orange;
+}
+
+.about{
+    width: 690px;
+    height: 421px;
+    margin-left: 125px;
+    padding-top: 76px;
+}
+
+.about a {
+color: orangered;    
+}
+
+#scroll{
+width: 650px;
+height: 300px;
+overflow-x: hidden;
+}
+
+.imgone img{
+  float: left;
+  margin: 0 10px 10px 0;
+}
+.imgone h3{
+  margin: 10px 0 -15px 0;
+  color: yellowgreen;
+}
+
+ .leftbar .label {
+  color: #6c6c6ce4;
+  font-size: 18px;
+}
+.leftbar input{
+  width: 268px;
+  background-color: #000;
+  border: #6c6c6ce4 1px solid;
+}
+.right h3{
+  color: yellowgreen;
+  float: left;
+}
+.leftbar button{
+  color: white;
+  background-color: #000;
+  margin-top: 20px;
+}
+.rightbar .right h5{
+  color: yellowgreen;
+  margin: 31px 0 0 0;
+
+}
+.rightbar .right h3{
+  margin: 13px 0 0 0;
+}
+
+.leftbar input{
+  color: white;
+}

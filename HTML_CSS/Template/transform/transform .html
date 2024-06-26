@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .main {
+            height: 200px;
+            width: 200px;
+            background-color: blue;
+            transition: all 0.3s linear 0s;
+            color: white;
+        }
+
+        .main:hover {
+            box-shadow: 0 10px 10px black;
+
+            /* Scale */
+            trasnform: scale(x, y);
+            transform: scale(1.1, 0.9);
+            /* transform: scale(0.8); */
+
+            /* translate */
+            /* transform: translate(x,y); */
+            /* transform: translate(-100px, -200px); */
+            /* transform: translateY(-10px); */
+            /* margin-bottom: 10px; */
+            /* transform: translateX(100px); */
+
+            /* Rotate */
+            /* transform: rotate(); */
+            /* transform: rotate(-20deg); */
+            /* transform: rotate(100deg); */
+
+
+            /* Skew */
+            /* transform: skew(x,y); */
+            /* transform: skew(10deg, 20deg); */
+            /* transform: skewX(-20deg); */
+            /* transform: skewY(-20deg); */
+
+
+            /* Matrix => scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY() */
+            /* transform: matrix(1.3, 2, 2, 1.5, 10, 20); */
+            /* transform: matrix(1, -0.3, 0, 1, 0, 0); */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        Click Here
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,138 @@
+//----------------------
+
+DB:-Falak
+Bulding (5)
+name, numberOffloor, color, Room
+A, 7, "Grey", 2
+B, 7
+
+Room:- (300)
+number Bulding, OwnerName floor
+605, "B", "Akil Ansari", 6
+606, "B", "Taffzul Ansari"
+
+Users (1200)
+name, Bulding, room
+Tanvir "B", "605"
+Bilal "B", 605
+
+vehicals (600)
+id, name, model, wheeler, color, Company, vehicalsNumber  Room
+1, "Splender", 2012, 2, Black, "Honda", GJ023-6769, 605
+2, "Appache", 2019, 2, Black, "TVS"
+3, "Swift", 2018, 4, White, "Honda"
+
+
+
+
+
+create database falak;
+use falak;
+
+create table building (
+block char(1) primary key, floor int, colour varchar(30), room int );
+
+
+
+use falak;
+
+create table room(
+room int primary key, flore int,  building char (1), owner_name varchar(20)) ;
+
+
+insert into room (room, flore, building, owner_name) values
+(2, 0, 'b', 'Suleman'),
+(201, 2, 'b', 'Aakib'),
+(501, 5, 'b', 'Arbaj'),
+(603, 6, 'b', 'Firoj_bhai'),
+(604, 6, 'b', 'Giyasuddin_bhai'),
+(605, 6, 'b', 'Tanvir_ansari');
+
+-------------------------
+use falak;
+
+create table building (
+block char(1) primary key, floor int, BHK int ,colour varchar(30), room int );
+
+
+insert into building( block, floor, BHK, colour, room) values
+('A', 7, 3, 'gray', 56 ),
+('B', 7, 2,'gray', 64 ),
+('C', 7, 3,'gray', 24 ),
+('D', 7, 3, 'gray', 42 );
+
+select * from building;
+
+
+-------------------------
+use falak;
+create table vehicle(id int primary key,name varchar(50), model varchar(30), wheeler int, colour varchar(50),
+ vehicleNumber int, room int );
+ 
+ insert into vehicle(id, name, model, wheeler, colour, vehicleNumber, room) values
+ (1, 'access', 2022, 2, 'black', 3312, 02),
+ (2, 'shine', 2019, 2, 'black', 3232, 02),
+ (3, 'access',2015, 2, 'red', 2123, 201),
+ (4, 'burgman',2022, 2, 'white', 9589, 501),
+ (5, 'splender', 2015, 2, 'white', 6793, 605),
+ (6, 'apche', 2022, 2, 'black', 2383, 605),
+ (7, 'burgman', 2021, 2, 'broun', 4550, 701);
+ 
+ select * from vehicle model = 2022;
+
+ SELECT * FROM falak.building where room >50;
+
+----------------------------------------------
+-- create database falak_2;
+
+
+-- use falak_2;
+-- create table user( f_name varchar (50),l_name varchar(50), building char(2), room int);
+
+
+-- insert into user(f_name, l_name, building, room) values
+-- ('Aakil', 'Rajput', 'b', 01),
+-- ('Suleman', 'Pathan', 'b', 02),
+-- ('Sharukh', 'Pathan', 'b', 02),
+-- ('Aakib', 'Ansari', 'b', 201),
+-- ('ZahirBhai', 'Mansuri', 'b',402),
+-- ('ArbhajBhai', 'Sipai', 'b', 501),
+-- ('Nawab', 'Sipai', 'b', 501),
+-- ('Samir', 'mansuri', 'b', 502),
+-- ('SahejadBhai', 'Ansari', 'b',602 ),
+-- ('Fawad', 'Ansari', 'b',602 ),
+-- ('FirozBhia', 'Ansari', 'b', 603),
+-- ('Arham', 'Ansari', 'b',604 ),
+-- ('GiyasuddinBhia', 'Ansari', 'b',604 ),
+-- ('AkilAhemad', 'Ansari', 'b',605 ),
+-- ('TanvirBhai', 'Ansari', 'b',605 ),
+-- ('Arshan', 'Ansari', 'b',605 ),
+-- ('Bilal', 'Ansari', 'b',605 ),
+-- ('TafazzulBhai', 'Ansari', 'b',606 ),
+-- ('Abudlla', 'Ansari', 'b',606 ),
+-- ('Maksud', 'Ansari', 'b',606 ),
+-- ('SadafBhai', 'Ansari', 'b',701 ),
+-- ('Saad', 'Ansari', 'b',701 ),
+-- ('SadafBhai', 'Ansari', 'b',701 );
+-------------------------------------------------
+use falak_2;
+
+-- create table room(room int, flor int, building char(2), ownerName varchar(50));
+
+
+insert into room(room, flor, building, ownerName) values
+(01, 0, 'B', 'AkilBhai'),
+(02, 0, 'B', 'Suleman'),
+(101, 1, 'B', 'AbujarBhai'),
+(201, 2, 'B', 'Aakib'),
+(203, 2, 'B', 'Hafizzi'),
+(306, 3, 'B', 'MuntajirBhai'),
+(402, 4, 'B', 'ZahirBhai'),
+(501, 5, 'B', 'ArbajBhai'),
+(502, 5, 'B', 'Samir'),
+(601, 6, 'B', 'Babu'),
+(602, 6, 'B', 'SahejadBhai'),
+(603, 6, 'B', 'FirozBhai'),
+(604, 6, 'B', 'GiyasuddinBhai'),
+(605, 6, 'B', 'AkilAhemad'),
+(606, 6, 'B', 'TafazzulBhai');

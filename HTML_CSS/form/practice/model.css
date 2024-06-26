@@ -1,0 +1,110 @@
+.main{
+    width: 1028px;
+    height: 778px;
+    background-image: url(../../image/model.jpg);
+    margin: 150px 0 0 200px;
+    
+}
+.hedar{
+    width: 1000px;
+    height: 100px;
+    background-color: rgba(5, 3, 3, 0.345);
+    margin-left: 15px;
+}
+.manubar{
+    width: 1014px;
+}
+
+.newitem a {
+    margin-right: 60px;
+  }
+  .newitem {
+    background-color: rgba(240, 248, 255, 0.439);
+    color: white;
+    margin-left: 15px;}
+
+    .leftbar{
+        float: left;
+        width: 250px;
+        height: 550px;
+        text-align: center;
+        background-color: rgba(24, 24, 24, 0.259)
+
+    }
+    .login{
+        border: solid 2px beige;
+        width: 235px;
+        height: 250px;
+        margin: 16px 0 0 4px;
+        position: relative;
+        float: left;
+    }
+    .loginunder{
+color: yellow;
+font-size: 25px;
+border-bottom: solid 5px white;
+
+    }
+    
+    .password{
+        margin-top: 20px;
+    }
+
+    .button{
+margin-top: 20px;
+    }
+    .hl{
+/* text-align: center; */
+        position: absolute;
+         margin: 20px 0 20px -40px;
+        color: mediumorchid;
+    }
+
+
+.rightbar{
+    margin-right: 12px;
+    float: right;
+    height: 550px;
+    width: 760px;
+    background-color: rgba(7, 7, 7, 0.311);
+    border-left: solid 3px white ;
+}
+
+.up{
+    height: 30px;
+    width: 200px;
+    background-color: rgba(7, 7, 7, 0.311);
+    border-right: solid 2px white;
+}
+
+.arshan{
+    width: 766px;
+    height: 160px;
+    background-color: rgba(7, 7, 7, 0.311);
+    border-top:  solid 2px white;
+}
+.product{
+    width: 766px;
+    color:yellow;
+    height: 24px;
+    background-color: rgba(7, 7, 7, 0.311);
+    text-align: end;
+    border: solid 2px white;
+}
+.khali{
+    background-color: rgba(7, 7, 7, 0.311);
+    height: 333px;
+    width: 760px;
+    border-top-left: solid 3px white;
+}
+
+.web{
+    color: yellow;
+    text-align: center;
+    padding-top: 29px;
+}
+.best{
+    color: yellow;
+    text-align: center;
+    margin-top: 8px;
+}

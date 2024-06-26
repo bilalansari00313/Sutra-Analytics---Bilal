@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Program 6</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <h1 class="hideThis">Hiding any specific element using "element.class"</h1>
+
+    <p class="hideThis">This is a jQuery program 6</p>
+
+    <p>This program will hide something</p>
+
+    <p>This is a jQuery program 3</p>
+
+    <p class="hideThis">This program will hide something</p>
+
+    <button type="button">Click me to hide!</button>
+</body>
+<script>
+    // Hides all "p" elements having "class" = "hideThis"
+    $(document).ready(function () {
+        $("button").click(function () {
+            $("p.hideThis").hide()
+        });
+    });
+</script>
+
+</html>

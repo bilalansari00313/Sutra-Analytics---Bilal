@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>Sample HTML Table</title>
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h2>Sample HTML Table</h2>
+    <table>
+        <!-- <thead> -->
+            <!-- <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+                <th>City</th>
+            </tr> -->
+        <!-- </thead> -->
+        <!-- <tbody> -->
+            <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>30</td>
+                <td>New York</td>
+            </tr>
+            <tr>
+                <td>Jane</td>
+                <td>Smith</td>
+                <td>25</td>
+                <td>Los Angeles</td>
+            </tr>
+            <tr>
+                <td>Michael</td>
+                <td>Johnson</td>
+                <td>35</td>
+                <td>Chicago</td>
+            </tr>
+            <tr>
+                <td>Emily</td>
+                <td>Davis</td>
+                <td>28</td>
+                <td>Houston</td>
+            </tr>
+            <tr>
+                <td>Michael</td>
+                <td>Johnson</td>
+                <td>35</td>
+                <td>Chicago</td>
+            </tr>
+            <tr>
+                <td>Michael</td>
+                <td>Johnson</td>
+                <td>35</td>
+                <td>Chicago</td>
+            </tr>
+            <tr>
+                <td>Michael</td>
+                <td>Johnson</td>
+                <td>35</td>
+                <td>Chicago</td>
+            </tr>
+            <tr>
+                <td>Michael</td>
+                <td>Johnson</td>
+                <td>35</td>
+                <td>Chicago</td>
+            </tr>
+            <tr>
+                <td>Michael</td>
+                <td>Johnson</td>
+                <td>35</td>
+                <td>Chicago</td>
+            </tr>
+
+        <!-- </tbody> -->
+    </table>
+    <button>color</button>
+    <button id="black">black</button>
+</body>
+<script>
+        // $(document).ready(function(){
+        //     $("button").click(function(){
+        //         $("tr:even").css("background-color","red")
+        //     })
+        // })
+
+    $(document).ready(function(){
+        $("button").click(function(){
+            $("tr:odd").css("background-color","red")
+            $("tr:even").css("background-color","yellow")
+            
+            $("tr:odd").css("background-color","black")
+
+        })
+    })
+
+    
+</script>
+</html>
